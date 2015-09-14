@@ -36,10 +36,13 @@ body {
     text-align: center;
 }
 
-
 a {
     font-size: 1.5em;
     text-decoration: none;
+}
+
+a:focus {
+    outline: 3px solid #DFB45E;
 }
 
 .content {
