@@ -68,14 +68,12 @@ a:focus {
     padding: 25px 80px;
     margin: 25px 0;
     font-size: 1.5em;
+    font-weight: bold;
 }
 
 .btn:hover {
     background: #DFB45E;
     color: black;
-    padding: 25px 80px;
-    margin: 25px;
-    font-weight: bold;
 }
 
 
