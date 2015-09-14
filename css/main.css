@@ -53,12 +53,13 @@ a {
 }
 
 .buttons {
-    margin: 3em;
     text-align: center;
     position: center;
 }
 
 .btn {
+    display: block;
+    width: 100%;
     background: black;
     color: white;
     padding: 25px 80px;
@@ -86,6 +87,10 @@ a {
         width: 75%;
     }
 
+    .btn {
+    display: inline-block;
+    width: 33.33%
+    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -95,6 +100,7 @@ a {
         color: white;
         padding: 25px 80px;
         float: center;
+        width: 25%;
         display: inline-block;
         margin: 25px;
         font-size: 1em;
