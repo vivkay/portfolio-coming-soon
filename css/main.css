@@ -14,6 +14,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+    font: normal 100%/1.5 'Ubuntu',sans-serif;
 }
 
 *, *::before, *::after {
@@ -25,24 +26,82 @@ body {
     padding: 0;
 }
 
-.hero {
-    max-height: 100vh;
-    position: relative;
-    overflow: hidden;
-    background: 
-        linear-gradient(to top, rgba(0,0,0,0.5), transparent) no-repeat center bottom / 100% 50%,
-        url("../images/bemighty.jpg") no-repeat center top;
-    background-size: cover;
-    padding-top: 76.6667%;
+.link {
+    color: grey;
+    font-size: 1em;
 }
 
-.hero-content {
-    padding: 0 1rem;
-    position: absolute;
-    width: 100%;
-    bottom: 15%;
-    color: #fff;
-    font-size: 2rem;
+.wrapper {
+    margin: 3em;
     text-align: center;
 }
 
+
+a {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.image {
+    width: 100%;
+    border: 5px solid black;
+}
+
+.buttons {
+    margin: 3em;
+    text-align: center;
+    position: center;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 25px 80px;
+    margin: 25px;
+    font-size: 1.5em;
+}
+
+.btn:hover {
+    background: #DFB45E;
+    color: black;
+    padding: 25px 80px;
+    margin: 25px;
+    font-weight: bold;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+    .image {
+        width: 75%;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .btn {
+        background: black;
+        color: white;
+        padding: 25px 80px;
+        float: center;
+        display: inline-block;
+        margin: 25px;
+        font-size: 1em;
+        text-align: center;
+    }    
+    
+    .image {
+        width: 35%;
+    }
+}
