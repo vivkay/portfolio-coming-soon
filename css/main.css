@@ -75,6 +75,10 @@ a:focus {
     color: black;
 }
 
+.copy {
+    font-size: 1em;
+    margin: 1em 5%;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -95,6 +99,11 @@ a:focus {
 }
 
 @media only screen and (min-width: 60em) {
+    
+    .copy {
+        font-size: 1.25em;
+        margin: 1em 25%;
+    }
     
     .btn {
         background: black;
