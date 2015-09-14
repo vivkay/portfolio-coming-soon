@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    max-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: 
+        linear-gradient(to top, rgba(0,0,0,0.5), transparent) no-repeat center bottom / 100% 50%,
+        url("../images/bemighty.jpg") no-repeat center top;
+    background-size: cover;
+    padding-top: 76.6667%;
+}
+
+.hero-content {
+    padding: 0 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
